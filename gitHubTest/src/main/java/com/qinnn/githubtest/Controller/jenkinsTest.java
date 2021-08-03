@@ -13,10 +13,10 @@ public class jenkinsTest {
     public Map gitTest(){
         HashMap<String, Object> map = new HashMap<>();
         map.put("name","Qinnn");
-        map.put("email","1394323886@qq.com");
+//        map.put("email","1394323886@qq.com");
         //添加时间,1111
-        map.put("time",new Date());
-        map.put("status","success");
+//        map.put("time",new Date());
+//        map.put("status","success");
         return map;
     }
 }
