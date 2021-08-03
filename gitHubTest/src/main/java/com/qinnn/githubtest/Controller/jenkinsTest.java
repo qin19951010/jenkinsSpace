@@ -3,6 +3,7 @@ package com.qinnn.githubtest.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -13,6 +14,8 @@ public class jenkinsTest {
         HashMap<String, Object> map = new HashMap<>();
         map.put("name","Qinnn");
         map.put("email","1394323886@qq.com");
+        //添加时间
+        map.put("time",new Date());
         return map;
     }
 }
