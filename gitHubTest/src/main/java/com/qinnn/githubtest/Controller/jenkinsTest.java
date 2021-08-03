@@ -16,6 +16,7 @@ public class jenkinsTest {
         map.put("email","1394323886@qq.com");
         //添加时间,1111
         map.put("time",new Date());
+        map.put("status","success");
         return map;
     }
 }
