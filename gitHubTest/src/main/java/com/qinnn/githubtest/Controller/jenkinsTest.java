@@ -14,7 +14,7 @@ public class jenkinsTest {
         HashMap<String, Object> map = new HashMap<>();
         map.put("name","Qinnn");
         map.put("email","1394323886@qq.com");
-        //添加时间
+        //添加时间,1111
         map.put("time",new Date());
         return map;
     }
